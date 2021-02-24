@@ -1,0 +1,32 @@
+<html>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <body ng-app="myApp">
+    <head>
+       
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+   
+    <div class="pluto">
+        <div class="p1">Pluto is the largest dwarf planet but only the second most massive, with Eris being the most massive. Pluto is named after the Roman god of the underworld. This was proposed by Venetia Burney an eleven year old schoolgirl from Oxford, England. Pluto was reclassified from a planet to a dwarf planet in 2006.</div>
+          
+                <body>
+               
+                    <div class="p2"><B>FOR MORE INFORMATION </div></B>
+                    <b><a href="https://solarsystem.nasa.gov/planets/dwarf-planets/pluto/overview/" class="button">click here</a>
+                        
+                        
+                        <div class="loader">
+                            <div></div>
+                          </div> 
+                   
+                        </body>
+    <script>
+        $(window).on('load',function(){
+            $(".loader").fadeOut(3000);
+            $(".content").fadein(1000);
+        });
+    </script>
+</html>
